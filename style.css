@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
 
 body {
     color: #40514E;
@@ -11,13 +12,13 @@ body {
     color: #66BFBF;
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
   }
   
   h2 {
     color: #66BFBF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 2rem;
     font-weight: normal;
     padding-bottom: 10px;
   }
@@ -29,9 +30,10 @@ body {
   
   p {
     line-height: 2;
+    font-family: "Fira Sans", sans-serif;
   }
   
-  hr {
+  .hr-line {
     border: dotted black 6px;
     border-bottom: none;
     width: 4%;
@@ -89,7 +91,7 @@ body {
  }
 
  li{
-     color: white;
+     list-style: none;
  }
 
  .bar{
@@ -190,6 +192,37 @@ body {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
+
+  .projects{
+    width: 50%;
+    margin: auto;
+  }
+
+  .project-pic{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+  }
+
+  .btn1{
+    border-radius: 40px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .btn1:hover{
+    background-color: #66BFBF;
+  }
+
+  .list1{
+    margin: 50px auto;
+  }
+
+  hr{
+    border: thin solid black;
+  }
+
   
   @keyframes html{
       0%{
@@ -223,3 +256,4 @@ body {
           width: 50%;
       }
   }
+
